@@ -1,0 +1,17 @@
+{
+  "name": "ghost-log",
+  "version": "0.1.0",
+  "description": "Audit trail for AI-assisted coding sessions — see what Claude built and flag unexplained changes",
+  "main": "src/index.js",
+  "bin": {
+    "ghost-log": "bin/vibe-audit.js"
+  },
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "keywords": ["claude", "ai", "audit", "vibe-coding", "claude-code"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
